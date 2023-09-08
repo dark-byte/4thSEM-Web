@@ -291,6 +291,23 @@ h3{
     font-weight: 400;
 }
 
+.price-rating{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.star{
+    color: #333;
+    font-size: 0.6rem;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+
 .company-name{
     color: #7b7b7b;
     font-weight: 900;
