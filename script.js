@@ -32,6 +32,26 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 } 
 
-var img = "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
-var img2 = "https://images.unsplash.com/photo-1627384113743-6bd5a479fffd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
-var img3 = "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+function goToMensClothin(){
+  window.location.href = "./mens-clothing.html"
+}
+
+function goToFitness(){
+  window.location.href = "./fitness.html";
+}
+
+function goToHeadphones(){
+  window.location.href = "./headphones.html"
+}
+
+function goToBabyProd(){
+  window.location.href = "./baby-prod.html";
+}
+
+function goToLaptops(){
+  window.location.href = "./laptops.html";
+}
+
+function goToSmartphones(){
+  window.location.href = "./smartphones.html";
+}

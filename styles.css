@@ -36,6 +36,7 @@ h3{
 
 .search-bar input {
     padding: 10px 15px;
+    width: 250px;
     border: none;
     z-index: 2;
     border-radius: 0;
@@ -260,6 +261,96 @@ h3{
     height: 100%;
 }
 
+.prod-cc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.prod-card{
+    height: 550px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 15px;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.prod-card img{
+    max-width: 60%;
+    max-height: 60%;
+    margin: auto;
+}
+
+.prod-title{
+    font-weight: 400;
+}
+
+.company-name{
+    color: #7b7b7b;
+    font-weight: 900;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+h3{
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+
+.add-to-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 800;
+    border: none;
+    margin-top: 10px;
+    background-color: #1d1d1d;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.add-to-cart:hover{
+    background-color: #333;
+    box-shadow: rgba(0, 0, 0, 0.267) 0px 4px 12px;
+}
+
+.add-to-cart span{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.price span{
+    font-size: 1rem;
+}
+
+.results-top{
+    margin: 20px 0 0 20px;
+}
+
+.results-top h2{
+    font-size: 1rem;
+}
+.results-top p{
+    font-size: 0.8rem;
+    color: #333;
+}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
