@@ -264,6 +264,7 @@ h3{
 .prod-cc{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 40px;
     justify-content: space-evenly;
 }
 
