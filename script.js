@@ -44,14 +44,18 @@ function goToHeadphones(){
   window.location.href = "./headphones.html"
 }
 
-function goToBabyProd(){
-  window.location.href = "./baby-prod.html";
-}
-
 function goToLaptops(){
   window.location.href = "./laptops.html";
 }
 
 function goToSmartphones(){
   window.location.href = "./smartphones.html";
+}
+
+function goToWomenClothing(){
+  window.location.href = "./women-clothing.html";
+}
+
+function goTokitchenhome(){
+  window.location.href = "./Home&Kitchen.html";
 }
